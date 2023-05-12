@@ -36,7 +36,7 @@ class _LoginPageState extends State<LoginPage> {
         size: 100,
       ),
       SizedBox(
-        height: 50,
+        height: 10,
       ),
       // hello text
       Text(
@@ -47,12 +47,12 @@ class _LoginPageState extends State<LoginPage> {
         height: 10,
       ),
       const Text(
-        "Welcome Back, You\'ve Been missed ",
+        "Welcome Back, We missed you",
         style: TextStyle(fontSize: 20),
       ),
       // email text field
       const SizedBox(
-        height: 50,
+        height: 20,
       ),
       Padding(
         padding: const EdgeInsets.symmetric(horizontal: 25),
